@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>VinylForMe</title>
+
+  <!-- Tab Icon -->
+  <link rel="icon" href="https://img.icons8.com/color/100/000000/music-record--v1.png">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/18a861b241.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<body>
+
+  <!-- Navbar section -->
+
+  <div id="title" class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <span class="navbar-brand">
+        VinylForMe
+      </span>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/robibanica/?hl=ro"><i class="fab nav-icon fa-instagram"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://twitter.com/elonmusk"><i class="fab nav-icon fa-twitter"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:robi.banica@gmail.com"><i class="fas nav-icon fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
+  <!-- Vinyl section -->
+  <div id="vinyl-section" class="container-fluid">
+
+    <div class="pick-up">
+
+      <h1 class="pick-up-text-1">Pick Up,</h1>
+      <h1 class="pick-up-text-2">The Vinyl</h1>
+
+      <button class="play ps-buttons"><i class="icon fas fa-play"></i></button>
+      <button class="stop ps-buttons"><i class="icon fas fa-pause"></i></button>
+      <br>
+      <a class="buyIt" href=""><button type="button" class="buy-button">Buy it!</button></a>
+    </div>
+
+    <div id="genre-slide" class="carousel slide" data-ride="false" data-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h1 class="genre-text">Rap:</h1>
+          <button type="button" name="button" class="genre-button"><img id="The Sun's Tirade Vinyl" name="SunsTirade" src="Vinyl-Photos/rashid.jpeg.jpg" alt="Vinyl-Photo" class="1">
+            <p>The Sun’s Tirade</p>
+          </button>
+          <button type="button" name="button" class="genre-button"><img id="2014 Forest Hills Drive Vinyl" name="forest" src="Vinyl-Photos/J.Cole.jpg" alt="Vinyl-Photo" class="2">
+            <p>2014 Forest Hills Drive</p>
+          </button>
+          <button type="button" name="button" class="genre-button"><img id="Illmatic Vinyl" name="ilmatic" src="Vinyl-Photos/illmatic.jpg" alt="Vinyl-Photo" class="3">
+            <p>Illmatic</p>
+          </button>
+          <button type="button" name="button" class="genre-button"><img id="Good Kid, M.A.A.d City Vinyl" name="god" src="Vinyl-Photos/good.jpg" alt="Vinyl-Photo" class="4">
+            <p>Good Kid, M.A.A.d City</p>
+          </button>
+          <button type="button" name="button" class="genre-button"><img id="Astroworld Vinyl" name="astro" src="Vinyl-Photos/astro.jpg" alt="Vinyl-Photo" class="last-photo">
+            <p>Astroworld</p>
+          </button>
+        </div>
+        <div class="carousel-item">
+          <h1 class="genre-text">Rock:</h1>
+          <button type="button" name="button" class="genre-button"><img id="Nevermind Vinyl" name="never" src="Vinyl-Photos/Nevermind.jpg" alt="Vinyl-Photo" class="1">
+            <p>Nevermind</p>
+          </button>
+          <button type="button" name="button" class="genre-button"><img id="Are You Experienced Vinyl" name="arey" src="Vinyl-Photos/Jimi.jpg" alt="Vinyl-Photo" class="2">
+            <p>Are You Experienced</p>
+          </button>
+          <button type="button" name="button" class="genre-button"><img id="Sgt. Pepper's Lonely Hearts Club Band Vinyl" name="sgt" src="Vinyl-Photos/Pepper.jpg" alt="Vinyl-Photo" class="3">
+            <p class="genre-text-no-margin">Sgt. Pepper's</p>
+            <p class="genre-text-no-margin">Lonely Hearts Club Band</p>
+          </button>
+          <button type="button" name="button" class="genre-button"><img id="The Dark Side of the Moon Vinyl" name="thed" src="Vinyl-Photos/Pink.jpg" alt="Vinyl-Photo" class="4">
+            <p>The Dark Side of the Moon</p>
+          </button>
+          <button type="button" name="button" class="genre-button"><img id="Appetite for Destruction Vinyl" name="apet" src="Vinyl-Photos/Guns.jpg" alt="Vinyl-Photo" class="last-photo">
+            <p>Appetite for Destruction</p>
+          </button>
+        </div>
+        <div class="carousel-item">
+          <h1 class="genre-text">Pop:</h1>
+          <button type="button" name="button" class="genre-button"><img id="Thriller Vinyl" name="Thriller" src="Vinyl-Photos/jackson.jpg" alt="Vinyl-Photo" class="1">
+            <p>Thriller</p>
+          </button>
+          <button type="button" name="button" class="genre-button"><img id="Doo-Wops Hooligans Vinyl" name="Dowops" src="Vinyl-Photos/bruno.jpg" alt="Vinyl-Photo" class="2">
+            <p class="genre-text-no-margin">Doo-Wops</p>
+            <p>& Hooligans</p>
+          </button>
+          <button type="button" name="button" class="genre-button"><img id="Divide Vinyl" name="Divide" src="Vinyl-Photos/ed.jpg" alt="Vinyl-Photo" class="3">
+            <p>Divide</p>
+          </button>
+          <button type="button" name="button" class="genre-button"><img id="When We All Fall Asleep, Where Do We Go? Vinyl" name="When" src="Vinyl-Photos/billie.jpeg" alt="Vinyl-Photo" class="4">
+            <p class="genre-text-no-margin">When We All Fall Asleep,</p>
+            <p>Where Do We Go?</p>
+          </button>
+          <button type="button" name="button" class="genre-button"><img id="Norman Fucking Rockwell Vinyl" name="Norman" src="Vinyl-Photos/norman.jpeg" alt="Viniyl-Photo" class="last-photo">
+            <p>Norman Fucking Rockwell</p>
+          </button>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#genre-slide" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#genre-slide" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>

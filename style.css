@@ -1,0 +1,138 @@
+/* Tag section */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+button:focus {
+  outline: none;
+}
+/* ID's section */
+
+#title {
+  background-color: #272121;
+}
+
+#genre-slide {
+  font-family: 'Permanent Marker', cursive;
+}
+
+#vinyl-section {
+  /* padding-bottom: 7%; */
+}
+/* Class section */
+
+.navbar-brand {
+  font-size: 2.5rem;
+  margin-left: 1%;
+}
+
+.container-fluid {
+  background-color: #443737;
+}
+
+.genre {
+  background-color: #443737;
+}
+
+.pick-up {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+
+.pick-up-text-1 {
+  font-size: 4.5rem;
+  font-weight: 900;
+  padding-top: 7%;
+}
+
+.pick-up-text-2 {
+  font-size: 4.5rem;
+  font-weight: 900;
+}
+
+/* Icons and Buttons*/
+
+.icon {
+  font-size: 2rem;
+}
+
+.ps-buttons {
+  margin: 3% auto auto;
+  background-color: #443737;
+  color: #212529;
+  border: 0;
+}
+
+.ps-buttons:hover {
+  color: #000000;
+}
+
+.buy-button {
+  line-height: 2.5;
+  font-size: 2rem;
+  background-color: #443737;
+  color: #212529;
+  border: none;
+}
+
+.buy-button:hover {
+  color: #000000;
+}
+
+/* Carousel */
+
+.genre-text {
+  font-weight: 900;
+  margin-bottom: 1%;
+}
+
+.carousel-item {
+  text-align: center;
+  margin: 1.5% auto;
+}
+
+.last-photo {
+  margin: auto;
+}
+
+.genre-button {
+  border: none;
+  background-color: #443737;
+}
+
+.genre-text-no-margin {
+  margin: auto;
+}
+
+.carousel-inner {
+  height: 400px;
+  margin-top: 2%;
+}
+
+.nav-icon {
+  font-size: 1.2rem;
+}
+
+.pressed {
+  box-shadow: 0 0 20px grey;
+}
+
+.clicked-photo {
+  height: 300px;
+  width: 300px;
+  margin: 50px auto;
+}
+
+@media (max-width: 479px) {
+
+  .carousel-inner {
+    height: auto;
+  }
+
+}
